@@ -12,7 +12,7 @@ docker.init:
 .PHONY: docker.init
 
 init:
-	cd app; npm i; npm i -g nodemon;
+	cd app; npm i; npm i -g nodemon; npm run watch;
 .PHONY: init
 
 docker.stop:
