@@ -1,0 +1,154 @@
+/* Balise <body> */
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: justify;
+}
+
+/* Balise <h1> */
+
+#result h1 {
+    font-size: 2.25rem;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+}
+
+/* Balise <h2> */
+
+#result h2 {
+    font-size: 1.5rem;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+}
+
+/* Balise <h3> */
+
+#result h3 {
+    font-size: 1.25rem;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+}
+
+/* Balise <h4> */
+
+#result h4 {
+    font-size: 1rem;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+}
+
+/* Balise <p> */
+
+#result p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+/* Balise <a> */
+
+#result a {
+    color: #0070f3;
+    text-decoration: none;
+}
+
+/* Balise <ul> */
+
+#result ul {
+    padding-inline-start: 0;
+    list-style-type: disc;
+}
+
+/* Balise <li> */
+
+#result li {
+    margin-bottom: .5rem;
+    margin-left: 1.5rem;
+}
+
+/* Balise <img> */
+
+#result img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Balise <button> */
+
+#result button {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid #e2e8f0;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+/* Balise <input> */
+
+#result input {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+/* Balise <textarea> */
+
+#result textarea {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+/* Balise <table> */
+
+#result table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Balise <th> */
+
+#result th {
+    background-color: #e2e8f0;
+    padding: .375rem .75rem;
+    text-align: center;
+}
+
+/* Balise <td> */
+
+#result td {
+    padding: .375rem .75rem;
+    text-align: center;
+}
+
+#result pre {
+    background-color: #262626;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    color: #fff;
+    overflow: auto;
+}
